@@ -1,2 +1,3 @@
 streamlit_option_menu
 beautifulsoup4
+alpha_vantage
