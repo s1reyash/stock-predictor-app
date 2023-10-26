@@ -11,8 +11,16 @@ st.markdown(
     """
     <style>
     .stApp {
-        max-width: auto;
+        max-width: 1200px;
         background-color: #f8f8f8;
+    }
+    .stSelectbox {
+        background-color: #2e2e2e;
+        color: white;
+    }
+    .stButton {
+        background-color: #0074cc;
+        color: white;
     }
     </style>
     """,
@@ -26,6 +34,8 @@ st.write("Analyze stock prices, get stock information, compare stocks, and recei
 # Create a horizontal menu bar
 selected_page = option_menu("Select an Option", ["Information", "Stock Price Analysis", "Compare Stocks", "Stock Suggestions"],
                             icons=['info-circle', 'chart-line', 'chart-bar', 'lightbulb'], orientation="horizontal")
+
+# ... (rest of your code)
 
 def get_stock_info(ticker):
     api_key = "DE1FQJ7LMFCUKVWC"  # Replace with your Alpha Vantage API key
