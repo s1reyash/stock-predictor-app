@@ -11,7 +11,7 @@ st.markdown(
     """
     <style>
     .stApp {
-        max-width: 1200px;
+        max-width: auto;
         background-color: #f8f8f8;
     }
     </style>
