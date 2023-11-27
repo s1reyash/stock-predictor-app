@@ -28,7 +28,7 @@ st.markdown(
 )
 
 # Title and subtitle
-st.title("Stock Market Predictor")
+st.title("Stock Sage")
 st.write("Analyze stock prices, get stock information, compare stocks, and receive stock suggestions.")
 
 # Create a horizontal menu bar
